@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    background: linear-gradient(135deg, #f3f4f6, #dfe9f3); /* Smooth gradient background */
+    color: #333;
+  }
+  
+  .app {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #007bff, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Form Container */
+  .form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .form:before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(0, 123, 255, 0.1), rgba(0, 123, 255, 0.2));
+    top: 0;
+    left: -100%;
+    transform: rotate(30deg);
+    transition: all 0.5s ease;
+  }
+  
+  .form:hover:before {
+    left: 100%;
+  }
+  
+  /* Form Groups */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  input::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  button:hover {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.5);
+  }
+  
+  button:active {
+    transform: scale(1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .form {
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
