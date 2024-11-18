@@ -11,12 +11,6 @@ This project is a simple, interactive healthcare dashboard built with React.js. 
 - **Responsive Design**: The dashboard is designed to be mobile-friendly and looks great on all devices.
 - **Interactive Modal**: A modal appears after successful form submission, notifying users of the successful submission.
 
-## Live Demo
-
-Check out the live demo of the Healthcare Dashboard at the following link:
-
-[Live Demo](https://your-live-demo-link.com)
-
 ## Installation
 
 ### 1. Clone the Repository
