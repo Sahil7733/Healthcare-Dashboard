@@ -1,8 +1,8 @@
-/* General Styling */
+
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif; /* Modern and clean font */
-    background: linear-gradient(135deg, #f3f4f6, #dfe9f3); /* Smooth gradient background */
+    font-family: 'Poppins', sans-serif; 
+    background: linear-gradient(135deg, #f3f4f6, #dfe9f3); 
     color: #333;
   }
   
@@ -20,7 +20,7 @@ body {
     -webkit-text-fill-color: transparent;
   }
   
-  /* Form Container */
+
   .form {
     background: white;
     padding: 30px;
@@ -48,7 +48,7 @@ body {
     left: 100%;
   }
   
-  /* Form Groups */
+
   .form-group {
     margin-bottom: 20px;
     text-align: left;
@@ -107,7 +107,7 @@ body {
     transform: scale(1);
   }
   
-  /* Responsive Design */
+  
   @media (max-width: 480px) {
     .form {
       width: 90%;
